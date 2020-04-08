@@ -17,5 +17,7 @@ stages:
                 inputs:
                   script: |
                     echo Write your commands here
+                    cd C:\Users\sheri\Desktop\books
+                    mkdir test
                     
                     echo Hello world
