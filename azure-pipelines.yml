@@ -3,7 +3,6 @@ trigger:
 stages:
   - stage: deploy
     displayName: deploy stage
-    dependsOn: build
     jobs:
       - deployment: deploy
         displayName: deploying job
